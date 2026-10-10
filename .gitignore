@@ -1,0 +1,20 @@
+# Re-include everything: a parent ~/.gitignore ignores '*'
+!*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+backend/artifacts/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+frontend/dist-demo/

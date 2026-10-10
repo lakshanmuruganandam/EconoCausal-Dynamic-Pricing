@@ -1,0 +1,8 @@
+# Re-include everything (a parent ~/.gitignore ignores '*', which also hides
+# sources from Tailwind's class scanner), then ignore build artefacts.
+!*
+node_modules
+dist
+dist-demo
+*.local
+.DS_Store

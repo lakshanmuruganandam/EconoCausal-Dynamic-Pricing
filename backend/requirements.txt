@@ -1,0 +1,21 @@
+# Causal inference
+econml>=0.17.0
+dowhy>=0.14
+networkx>=3.3
+
+# Machine learning & optimisation
+lightgbm>=4.5.0
+scikit-learn>=1.5.0
+scipy>=1.13.0          # HiGHS MILP solver (scipy.optimize.milp)
+numpy>=2.0.0
+pandas>=2.2.0
+
+# API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+
+# Testing
+pytest>=8.0.0
+httpx>=0.27.0
