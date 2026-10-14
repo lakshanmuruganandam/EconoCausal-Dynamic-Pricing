@@ -93,6 +93,8 @@ npm run dev          # http://localhost:5173  (proxies /api → :8000)
 ```
 24 tests cover the SCM, balancing, Qini, MILP feasibility and optimality bounds, PSI, and every API endpoint end to end.
 
+To try the engine on your own data, download the 1,000-row example from **Data Studio** (or `GET /api/data/template.csv`), edit it, and upload it back. The whole pipeline retrains on the uploaded campaign.
+
 ### 4. Refresh the static demo (GitHub Pages)
 ```bash
 .venv/bin/python -m backend.export_static      # runs the pipeline, writes frontend/public/demo/*.json
